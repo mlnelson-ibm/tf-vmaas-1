@@ -1,0 +1,5 @@
+vcd_user = "<user name>"
+vcd_pass = "<user password>"
+vcd_org = "<vdc org id>"
+vcd_vdc = "<vdc name>"
+vcd_url = "https://<vdc url>/api"
