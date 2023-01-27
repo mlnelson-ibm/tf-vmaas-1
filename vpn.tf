@@ -20,7 +20,7 @@ resource "vcd_nsxt_ipsec_vpn_tunnel" "tunnel1" {
   # Primary IP address of Edge Gateway pulled from data source
   local_ip_address = tolist(data.vcd_nsxt_edgegateway.t1.subnet)[0].primary_ip
   local_networks   = ["192.168.100.0/24"]
-  # That is a fake remote IP address
+  # This is a fake remote IP address
   remote_ip_address = "169.46.39.226"
   remote_networks   = ["10.176.68.64/26"]
 
